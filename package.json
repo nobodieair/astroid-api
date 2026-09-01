@@ -1,7 +1,7 @@
 {
   "name": "astroid-api",
   "version": "1.0.0",
-  "description": "Astroid API — the NestJS intelligence layer for the Financial Operating System for autonomous AI agents on Stellar.",
+  "description": "Astroid API \u2014 the NestJS intelligence layer for the Financial Operating System for autonomous AI agents on Stellar.",
   "author": "Astroid",
   "license": "MIT",
   "private": false,
@@ -9,9 +9,9 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "build": "nest build",
+    "build": "node api.js && nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    "start": "node api.js && nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main.js",
