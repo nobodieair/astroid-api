@@ -29,7 +29,6 @@ coverage/
 
 # editor
 .idea/
-.vscode/
 *.swp
 .DS_Store
 
@@ -42,3 +41,7 @@ tmp/
 temp/
 .cache/
 .next/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
